@@ -105,7 +105,7 @@ npm run dev
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="./assets/home.png" width="400"/>  
+  <img src="./assets/home.png" width="400"/>   
   <br/>
   <em>🏠 Homepage</em>
 </p>
