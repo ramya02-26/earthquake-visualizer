@@ -99,7 +99,7 @@ npm run dev
 ## 🎥 Demo (Quick Preview)
 
 <p align="center">
-  <img src="./assets/earthquake-visualizer video.gif" width="700"/>
+  <img src="./assets/earthquake-visualizer-demo.gif" width="600"/>
 </p>
 
 ## 📸 Screenshots
