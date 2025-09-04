@@ -48,7 +48,7 @@ This project bridges that gap by transforming raw earthquake datasets into **int
 ## 📂 Project Structure  
 
 ```
-
+```text
 earthquake-visualizer/
 ├── assets/          # Project images, GIFs, and icons
 ├── public/          # Public static files (backgrounds, media)
