@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Leaflet CSS */
+@import "leaflet/dist/leaflet.css";
+
+/* Make sure html and body take full height */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* index.css additions */
+
+/* Leaflet tooltip override — larger and gradient background with black text */
+.leaflet-tooltip.custom-tooltip {
+  font-size: 1.05rem !important;
+  background: linear-gradient(90deg, #e6fbff 0%, #dff9ff 100%) !important;
+  color: #000 !important;
+  border-radius: 8px !important;
+  padding: 6px 10px !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Fallback: enlarge default tooltip if class isn't applied */
+.leaflet-tooltip {
+  font-size: 1rem !important;
+}
+
+/* RuleBasedExplanation container adjustments (optional) */
+.rule-based-container {
+  max-height: 100%;
+  overflow: auto;
+}
