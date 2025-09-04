@@ -4,7 +4,6 @@
 
 > An interactive web-based platform to **analyze and visualize global earthquakes in real time**, empowering researchers, students, and the general public to explore seismic activity with ease.  
 
-🚀 **Live Demo:** [Add Deployed Link Here]  
 📂 **GitHub Repo:** [https://github.com/ramya02-26/earthquake-visualizer](https://github.com/ramya02-26/earthquake-visualizer)  
 
 ---
@@ -45,9 +44,10 @@ This project bridges that gap by transforming raw earthquake datasets into **int
 
 ---
 
-## 📂 Project Structure  
 
 ```
+## 📂 Project Structure  
+
 ```text
 earthquake-visualizer/
 ├── assets/          # Project images, GIFs, and icons
@@ -127,6 +127,9 @@ npm run dev
   <em>📊 Explanation Dashboard</em>
 </p>
 ---
+## Demo Video 🎥
+[Click here to watch the demo](https://drive.google.com/file/d/1cOW0zQ1_jpgDtTF4w8NHdprXQc2tiJ1J/view?usp=drive_link)
+
 
 ## 🔮 Future Roadmap
 
