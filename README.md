@@ -1,52 +1,51 @@
 
-```markdown
-# 🌍 Earthquake Visualizer  
+---
 
-> An interactive web-based platform to **analyze and visualize global earthquakes in real time**, empowering researchers, students, and the general public to explore seismic activity with ease.  
+# 🌍 Earthquake Visualizer
 
-📂 **GitHub Repo:** [https://github.com/ramya02-26/earthquake-visualizer](https://github.com/ramya02-26/earthquake-visualizer)  
+> An interactive web-based platform to **analyze and visualize global earthquakes in real time**, empowering researchers, students, and the general public to explore seismic activity with ease.
+
+📂 **GitHub Repo:** [https://github.com/ramya02-26/earthquake-visualizer](https://github.com/ramya02-26/earthquake-visualizer)
 
 ---
 
-## 🎯 Motivation  
+## 🎯 Motivation
 
-Earthquakes are among the most unpredictable natural disasters. While raw data is available through APIs like USGS, it’s often difficult for non-experts to **interpret and visualize seismic activity**.  
+Earthquakes are among the most unpredictable natural disasters. While raw data is available through APIs like USGS, it’s often difficult for non-experts to **interpret and visualize seismic activity**.
 
-This project bridges that gap by transforming raw earthquake datasets into **intuitive, interactive visualizations**.  
+This project bridges that gap by transforming raw earthquake datasets into **intuitive, interactive visualizations**.
 
-- 📊 Helps **researchers** quickly identify seismic patterns  
-- 🧑‍🎓 Provides **students** with an educational tool for geoscience learning  
-- 🌍 Allows **anyone** to visually explore earthquake hotspots across the globe  
-
----
-
-## ✨ Features  
-
-- 🗺️ **Interactive World Map** – Powered by **Leaflet.js & React-Leaflet**  
-- 🌋 **Tectonic Plate Boundaries** overlay (GeoJSON integration)  
-- 🔴 **Dynamic Epicenter Circles** – Pulsating, color-coded by magnitude  
-- 🕒 **Timeline Play/Pause Animation** for earthquake sequences  
-- ℹ️ **Detailed Popups & Tooltips** – Magnitude, depth, location, time  
-- 📱 **Fully Responsive UI** – Optimized for mobile & desktop  
-- ⚡ **Fast & Lightweight** – Built with **Vite + React**  
+* 📊 Helps **researchers** quickly identify seismic patterns
+* 🧑‍🎓 Provides **students** with an educational tool for geoscience learning
+* 🌍 Allows **anyone** to visually explore earthquake hotspots across the globe
 
 ---
 
-## 🛠️ Tech Stack  
+## ✨ Features
 
-| Layer              | Tools & Libraries                                  |
-|--------------------|----------------------------------------------------|
-| **Frontend**       | React.js (Vite), React-Leaflet, Leaflet.js, GeoJSON |
-| **Styling**        | TailwindCSS / CSS Modules, Custom Animations        |
-| **Data Sources**   | USGS Earthquake API / GeoJSON datasets              |
-| **Deployment**     | StackBlitz, CodeSandbox, (Vercel/Netlify optional) |
-| **Version Control**| Git & GitHub                                        |
+* 🗺️ **Interactive World Map** – Powered by **Leaflet.js & React-Leaflet**
+* 🌋 **Tectonic Plate Boundaries** overlay (GeoJSON integration)
+* 🔴 **Dynamic Epicenter Circles** – Pulsating, color-coded by magnitude
+* 🕒 **Timeline Play/Pause Animation** for earthquake sequences
+* ℹ️ **Detailed Popups & Tooltips** – Magnitude, depth, location, time
+* 📱 **Fully Responsive UI** – Optimized for mobile & desktop
+* ⚡ **Fast & Lightweight** – Built with **Vite + React**
 
 ---
 
+## 🛠️ Tech Stack
 
-```
-## 📂 Project Structure  
+| Layer               | Tools & Libraries                                   |
+| ------------------- | --------------------------------------------------- |
+| **Frontend**        | React.js (Vite), React-Leaflet, Leaflet.js, GeoJSON |
+| **Styling**         | TailwindCSS / CSS Modules, Custom Animations        |
+| **Data Sources**    | USGS Earthquake API / GeoJSON datasets              |
+| **Deployment**      | StackBlitz, CodeSandbox, (Vercel/Netlify optional)  |
+| **Version Control** | Git & GitHub                                        |
+
+---
+
+## 📂 Project Structure
 
 ```text
 earthquake-visualizer/
@@ -60,19 +59,18 @@ earthquake-visualizer/
 ├── index.html       # Main HTML template
 ├── package.json     # Dependencies & scripts
 └── vite.config.js   # Vite build configuration
-
-
-````
+```
 
 ---
 
-## ⚡ Quick Start  
+## ⚡ Quick Start
 
-1️⃣ Clone the repo  
+1️⃣ Clone the repo
+
 ```bash
 git clone https://github.com/ramya02-26/earthquake-visualizer.git
 cd earthquake-visualizer
-````
+```
 
 2️⃣ Install dependencies
 
@@ -92,17 +90,19 @@ npm run dev
 
 ## 🌐 Deployment
 
-* **StackBlitz Demo:** https://stackblitz.com/~/github.com/ramya02-26/earthquake-visualizer
+* **StackBlitz Demo:** [https://stackblitz.com/\~/github.com/ramya02-26/earthquake-visualizer](https://stackblitz.com/~/github.com/ramya02-26/earthquake-visualizer)
 
-## 📸 Screenshots & Preview
+---
 
-## 🎥 Demo (Quick Preview)
+## 📸 Screenshots & Demo
+
+### 🎥 Demo (Quick Preview)
 
 <p align="center">
   <img src="./assets/earthquake-visualizer-demo.gif" width="600"/> 
 </p>
 
-## 📸 Screenshots
+### 📸 Homepage
 
 <p align="center">
   <img src="./assets/home.png" width="400"/>   
@@ -118,18 +118,21 @@ npm run dev
   <em>🗺️ Earthquake Map</em>
 </p>
 
-
-### Explnation panel
+### Explanation Panel
 
 <p align="center">
   <img src="./assets/explanation.png" width="400"/>  
   <br/>
   <em>📊 Explanation Dashboard</em>
 </p>
+
 ---
+
 ## Demo Video 🎥
+
 [Click here to watch the demo](https://drive.google.com/file/d/1cOW0zQ1_jpgDtTF4w8NHdprXQc2tiJ1J/view?usp=drive_link)
 
+---
 
 ## 🔮 Future Roadmap
 
@@ -163,9 +166,12 @@ These challenges strengthened my expertise in **frontend engineering, geospatial
 * 🎓 B.Tech CSE @ VMTW (2022–2026) | CGPA: 8.5
 * 💡 Skilled in React, Python, Java, Flask, SQL, and Machine Learning, Frontend UI/UX
 
+---
 
 ## ⭐ Contribute
 
 Contributions, issues, and feature requests are welcome!
 If you found this project helpful, don’t forget to give it a **star ⭐** on GitHub.
+
+---
 
